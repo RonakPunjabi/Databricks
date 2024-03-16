@@ -19,6 +19,9 @@ df=spark.read.csv("dbfs:/FileStore/tables/formula1/circuits.csv",header=True)
 # MAGIC %md
 # MAGIC ##Databricks test
 
+# MAGIC %md
+# MAGIC ##Databricks Push test
+
 # COMMAND ----------
 
 df=spark.read.csv("dbfs:/FileStore/tables/formula1/circuits.csv",header=True,inferSchema=True)
